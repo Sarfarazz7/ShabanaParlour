@@ -1,0 +1,419 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SS Makeover Salon & Academy — Chhindwara</title>
+  <meta name="description" content="SS Makeover Salon & Academy — Book appointments, view offers, see achievements, and join our academy." />
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* Tailwind config override for brand colors */
+    :root{
+      --brand-maroon: #800000;
+      --brand-accent: #f79121;
+      --brand-white: #ffffff;
+    }
+    .brand-maroon{background-color:var(--brand-maroon)}
+    .text-maroon{color:var(--brand-maroon)}
+    .accent{color:var(--brand-accent)}
+    .btn-primary{background-color:var(--brand-maroon);color:var(--brand-white)}
+    .btn-accent{background-color:var(--brand-accent);color:var(--brand-white)}
+    /* soft pastel background */
+    .pastel-bg{background: linear-gradient(180deg, #fff7f6 0%, #fff 100%)}
+  </style>
+</head>
+<body class="font-sans leading-relaxed text-gray-800">
+  <!-- Floating Contact Buttons -->
+  <div class="fixed right-4 bottom-6 flex flex-col gap-3 z-50">
+    <a href="tel:+91XXXXXXXXXX" class="shadow-lg p-3 rounded-full btn-primary flex items-center gap-2" aria-label="Call now">
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.003 5.884l2-3A1 1 0 015 2h3a1 1 0 011 .883l.356 3.108a1 1 0 01-.272.853l-2.2 2.2a16.01 16.01 0 006.724 6.724l2.2-2.2a1 1 0 01.853-.272l3.108.356A1 1 0 0122 17v3a1 1 0 01-.884 1l-3-1A19 19 0 013 6z"/></svg>
+      <span class="text-sm">Call</span>
+    </a>
+
+    <a href="https://wa.me/91XXXXXXXXXX?text=Hi%20SS%20Makeover%20Salon%20%26%20Academy,%20I%20want%20to%20book%20an%20appointment" target="_blank" rel="noopener" class="shadow-lg p-3 rounded-full bg-green-500 flex items-center gap-2" aria-label="WhatsApp">
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-white" viewBox="0 0 24 24" fill="currentColor"><path d="M20.52 3.48A11.86 11.86 0 0012 0C5.373 0 .001 5.373.001 12 0 13.98.44 15.86 1.27 17.53L0 24l6.7-1.13A11.937 11.937 0 0012 24c6.627 0 12-5.373 12-12 0-2.92-1.02-5.62-2.48-7.52zM12 21.5c-1.92 0-3.78-.52-5.36-1.5l-.38-.25-3.98.97.84-3.66-.25-.38A9.5 9.5 0 012.5 12C2.5 6.2 6.2 2.5 12 2.5S21.5 6.2 21.5 12 17.8 21.5 12 21.5zM17.2 15.1c-.22-.11-1.3-.64-1.5-.71-.2-.07-.35-.11-.5.11s-.57.71-.7.86c-.13.15-.26.17-.48.06-.22-.11-.93-.34-1.77-1.08-.66-.59-1.1-1.32-1.23-1.54-.13-.22-.01-.34.09-.45.09-.09.22-.24.33-.36.11-.12.15-.2.22-.33.07-.13.03-.24-.02-.36-.05-.11-.5-1.2-.69-1.64-.18-.42-.37-.36-.51-.37l-.44-.01c-.15 0-.39.06-.6.28-.22.22-.83.81-.83 1.98 0 1.17.85 2.31.97 2.47.11.15 1.68 2.6 4.07 3.63 2.39 1.03 2.39.69 2.82.65.43-.05 1.4-.57 1.6-1.12.2-.55.2-1.02.14-1.12-.07-.1-.25-.16-.47-.27z"/></svg>
+      <span class="text-sm text-white">WhatsApp</span>
+    </a>
+  </div>
+
+  <!-- Header -->
+  <header class="pastel-bg shadow-sm">
+    <div class="max-w-6xl mx-auto px-6 py-6 flex items-center justify-between">
+      <div class="flex items-center gap-4">
+        <div class="w-12 h-12 rounded-full bg-[var(--brand-maroon)] flex items-center justify-center text-white font-bold">SS</div>
+        <div>
+          <h1 class="text-maroon text-xl font-semibold">SS Makeover Salon & Academy</h1>
+          <p class="text-sm text-gray-600">Chhindwara — <span class="italic">Make Yourself, For Yourself.</span></p>
+        </div>
+      </div>
+      <nav class="hidden md:flex items-center gap-6">
+        <a href="#services" class="text-sm hover:underline">Services</a>
+        <a href="#offers" class="text-sm hover:underline">Offers</a>
+        <a href="#gallery" class="text-sm hover:underline">Gallery</a>
+        <a href="#academy" class="text-sm hover:underline">Academy</a>
+        <a href="#book" class="btn-primary px-4 py-2 rounded-md shadow">Book Now</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="bg-white">
+    <div class="max-w-6xl mx-auto px-6 py-12 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+      <div>
+        <h2 class="text-4xl font-extrabold text-maroon">Rediscover your glow</h2>
+        <p class="mt-4 text-gray-700">At SS Makeover Salon & Academy, we highlight the best in you — with care, expertise, and love. Join hundreds of women in Chhindwara who chose self-care first.</p>
+
+        <div class="mt-6 flex gap-3">
+          <a href="#book" class="btn-primary px-5 py-3 rounded-md shadow hover:opacity-90">Book Appointment</a>
+          <a href="tel:+91XXXXXXXXXX" class="border border-maroon px-5 py-3 rounded-md hover:bg-maroon hover:text-white transition">Call Now</a>
+        </div>
+
+        <div class="mt-6 grid grid-cols-2 gap-3 text-sm text-gray-600">
+          <div class="flex items-center gap-2"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-maroon" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2v6h6v-6c0-1.105-1.343-2-3-2z"/></svg> Certified Professionals</div>
+          <div class="flex items-center gap-2"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-maroon" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4"/></svg> Hygienic Tools & Salon</div>
+        </div>
+
+      </div>
+      <div class="rounded-xl overflow-hidden shadow-lg">
+        <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder" alt="Salon beauty" class="w-full h-80 object-cover">
+      </div>
+    </div>
+  </section>
+
+  <!-- Why You Need Our Services -->
+  <section class="max-w-6xl mx-auto px-6 py-10">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 items-start">
+      <div class="col-span-1 md:col-span-2 bg-white p-6 rounded-xl shadow">
+        <h3 class="text-2xl font-semibold text-maroon">Why Choose SS Makeover?</h3>
+        <ul class="mt-4 space-y-3 text-gray-700">
+          <li class="flex gap-3 items-start"><span class="text-maroon font-bold">•</span> <div><strong>Beauty isn’t for others — it’s a gift to yourself.</strong><div class="text-sm text-gray-600">Small changes, big confidence. Rediscover yourself in a safe, caring space.</div></div></li>
+          <li class="flex gap-3 items-start"><span class="text-maroon font-bold">•</span> <div><strong>Feel younger — not by age, but by glow.</strong><div class="text-sm text-gray-600">Our skin & hair specialists bring visible, lasting results.</div></div></li>
+          <li class="flex gap-3 items-start"><span class="text-maroon font-bold">•</span> <div><strong>We don’t change you — we highlight the best in you.</strong><div class="text-sm text-gray-600">Personalized treatments that suit your lifestyle.</div></div></li>
+        </ul>
+      </div>
+
+      <aside class="bg-[var(--brand-maroon)] text-white p-6 rounded-xl shadow">
+        <h4 class="text-xl font-semibold">Quick Facts</h4>
+        <div class="mt-4 space-y-3">
+          <div class="flex items-center justify-between"><div>Years Experience</div><div class="font-bold">6+</div></div>
+          <div class="flex items-center justify-between"><div>Happy Clients</div><div class="font-bold">2,000+</div></div>
+          <div class="flex items-center justify-between"><div>Google Rating</div><div class="font-bold">4.8★</div></div>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section id="services" class="bg-white py-8">
+    <div class="max-w-6xl mx-auto px-6">
+      <h3 class="text-2xl font-semibold text-maroon">Our Services</h3>
+      <p class="text-gray-600 mt-2">Click a service to pre-fill the booking form.</p>
+
+      <div class="mt-6 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
+        <!-- Service Card Template -->
+        <button class="service-card bg-white border rounded-lg p-4 text-center hover:shadow-lg" data-service="Ladies Haircut">
+          <img src="https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?q=80&w=400&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder" alt="hair" class="w-full h-24 object-cover rounded-md">
+          <div class="mt-2 font-medium">Ladies Haircut</div>
+          <div class="text-sm text-gray-500">Be ready for compliments 😉</div>
+        </button>
+
+        <button class="service-card bg-white border rounded-lg p-4 text-center hover:shadow-lg" data-service="Hair Spa">
+          <img src="https://images.unsplash.com/photo-1580281657521-4c8d5d3c4d7a?q=80&w=400&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder" alt="hair spa" class="w-full h-24 object-cover rounded-md">
+          <div class="mt-2 font-medium">Hair Spa</div>
+          <div class="text-sm text-gray-500">Soft, shiny hair awaits.</div>
+        </button>
+
+        <button class="service-card bg-white border rounded-lg p-4 text-center hover:shadow-lg" data-service="Facial">
+          <img src="https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?q=80&w=400&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder" alt="facial" class="w-full h-24 object-cover rounded-md">
+          <div class="mt-2 font-medium">Facial</div>
+          <div class="text-sm text-gray-500">Glow that lasts.</div>
+        </button>
+
+        <button class="service-card bg-white border rounded-lg p-4 text-center hover:shadow-lg" data-service="Bridal Makeup">
+          <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?q=80&w=400&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder" alt="bridal" class="w-full h-24 object-cover rounded-md">
+          <div class="mt-2 font-medium">Bridal Makeup</div>
+          <div class="text-sm text-gray-500">Your day, your glow.</div>
+        </button>
+
+        <button class="service-card bg-white border rounded-lg p-4 text-center hover:shadow-lg" data-service="Waxing">
+          <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=400&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder" alt="waxing" class="w-full h-24 object-cover rounded-md">
+          <div class="mt-2 font-medium">Waxing</div>
+          <div class="text-sm text-gray-500">Smooth results.</div>
+        </button>
+
+        <button class="service-card bg-white border rounded-lg p-4 text-center hover:shadow-lg" data-service="Nail Art">
+          <img src="https://images.unsplash.com/photo-1496317899792-9d7dbcd928a1?q=80&w=400&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder" alt="nails" class="w-full h-24 object-cover rounded-md">
+          <div class="mt-2 font-medium">Nail Art</div>
+          <div class="text-sm text-gray-500">Hands that speak volumes.</div>
+        </button>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Offers -->
+  <section id="offers" class="max-w-6xl mx-auto px-6 py-10">
+    <h3 class="text-2xl font-semibold text-maroon">Current Offers</h3>
+    <div class="mt-4 grid grid-cols-1 md:grid-cols-3 gap-4">
+      <div class="p-4 rounded-lg shadow bg-white border-l-4 border-[var(--brand-accent)]">
+        <h4 class="font-semibold">First Visit — 30% OFF</h4>
+        <p class="text-sm text-gray-600 mt-1">Welcome offer for new clients. Limited time slots available.</p>
+      </div>
+      <div class="p-4 rounded-lg shadow bg-white border-l-4 border-[var(--brand-accent)]">
+        <h4 class="font-semibold">Facial + Hair Spa Combo</h4>
+        <p class="text-sm text-gray-600 mt-1">A rejuvenating package for glowing skin and soft hair.</p>
+      </div>
+      <div class="p-4 rounded-lg shadow bg-white border-l-4 border-[var(--brand-accent)]">
+        <h4 class="font-semibold">Bridal Advance Booking</h4>
+        <p class="text-sm text-gray-600 mt-1">Book your bridal slot early and get exclusive perks.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Achievements -->
+  <section class="bg-white py-8">
+    <div class="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-6 items-center">
+      <div class="col-span-2">
+        <h3 class="text-2xl font-semibold text-maroon">Achievements & Certifications</h3>
+        <div class="mt-4 grid grid-cols-2 gap-4">
+          <div class="p-4 bg-white rounded-lg shadow border">
+            <div class="text-3xl font-bold">6+</div>
+            <div class="text-sm text-gray-600">Years Experience</div>
+          </div>
+          <div class="p-4 bg-white rounded-lg shadow border">
+            <div class="text-3xl font-bold">2000+</div>
+            <div class="text-sm text-gray-600">Happy Clients</div>
+          </div>
+          <div class="p-4 bg-white rounded-lg shadow border">
+            <div class="text-3xl font-bold">50+</div>
+            <div class="text-sm text-gray-600">Bridal Makeovers</div>
+          </div>
+          <div class="p-4 bg-white rounded-lg shadow border">
+            <div class="text-3xl font-bold">Certified</div>
+            <div class="text-sm text-gray-600">Professional Trainers</div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder" alt="certificate" class="rounded-lg object-cover h-48 w-full shadow">
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery -->
+  <section id="gallery" class="max-w-6xl mx-auto px-6 py-8">
+    <h3 class="text-2xl font-semibold text-maroon">Before & After Gallery</h3>
+    <div class="mt-4 grid grid-cols-1 md:grid-cols-3 gap-4">
+      <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder" class="rounded-lg object-cover h-48 w-full shadow">
+      <img src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder" class="rounded-lg object-cover h-48 w-full shadow">
+      <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder" class="rounded-lg object-cover h-48 w-full shadow">
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="bg-white py-8">
+    <div class="max-w-6xl mx-auto px-6">
+      <h3 class="text-2xl font-semibold text-maroon">Customer Feedback</h3>
+      <div id="testimonials" class="mt-4 space-y-4">
+        <div class="p-4 rounded-lg shadow flex gap-4 items-center">
+          <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=200&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder" alt="customer" class="w-16 h-16 rounded-full object-cover">
+          <div>
+            <div class="font-semibold">Sunita R.</div>
+            <div class="text-sm text-gray-600">"Lovely experience — the facial made my skin glow. Highly recommend!"</div>
+          </div>
+          <div class="ml-auto font-bold text-maroon">4.9★</div>
+        </div>
+
+        <div class="p-4 rounded-lg shadow flex gap-4 items-center">
+          <img src="https://images.unsplash.com/photo-1545996124-2f7a62b4b3f6?q=80&w=200&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder" alt="customer" class="w-16 h-16 rounded-full object-cover">
+          <div>
+            <div class="font-semibold">Rekha M.</div>
+            <div class="text-sm text-gray-600">"Trained professionals. I felt confident and beautiful on my function day."</div>
+          </div>
+          <div class="ml-auto font-bold text-maroon">5.0★</div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Booking Form -->
+  <section id="book" class="pastel-bg py-10">
+    <div class="max-w-4xl mx-auto px-6 bg-white rounded-xl shadow p-6">
+      <h3 class="text-2xl font-semibold text-maroon">Book an Appointment</h3>
+      <p class="text-gray-600 mt-2">Choose a date and service — we’ll confirm your slot soon. Your booking will be saved automatically.</p>
+
+      <form id="bookingForm" class="mt-4 grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div>
+          <label class="text-sm font-medium">Full Name</label>
+          <input type="text" id="name" required class="mt-1 w-full border rounded px-3 py-2" placeholder="Your name">
+        </div>
+        <div>
+          <label class="text-sm font-medium">Phone</label>
+          <input type="tel" id="phone" required class="mt-1 w-full border rounded px-3 py-2" placeholder="+91XXXXXXXXXX">
+        </div>
+
+        <div>
+          <label class="text-sm font-medium">Service</label>
+          <select id="service" required class="mt-1 w-full border rounded px-3 py-2">
+            <option value="">Select Service</option>
+            <option>Ladies Haircut</option>
+            <option>Hair Spa</option>
+            <option>Facial</option>
+            <option>Bridal Makeup</option>
+            <option>Waxing</option>
+            <option>Nail Art</option>
+            <option>Makeup Course</option>
+          </select>
+        </div>
+
+        <div>
+          <label class="text-sm font-medium">Select Date</label>
+          <input type="date" id="date" class="mt-1 w-full border rounded px-3 py-2" required>
+        </div>
+
+        <div>
+          <label class="text-sm font-medium">Select Time</label>
+          <input type="time" id="time" class="mt-1 w-full border rounded px-3 py-2" required>
+        </div>
+
+        <div class="md:col-span-2">
+          <label class="text-sm font-medium">Notes (optional)</label>
+          <textarea id="notes" class="mt-1 w-full border rounded px-3 py-2" rows="3" placeholder="Any special requests..."></textarea>
+        </div>
+
+        <div class="md:col-span-2 flex gap-3 items-center">
+          <button type="submit" class="btn-primary px-5 py-3 rounded-md shadow">Confirm Booking</button>
+          <div id="bookingMsg" class="text-sm text-gray-600"></div>
+        </div>
+      </form>
+
+      <p class="text-xs text-gray-500 mt-3">Note: Replace <code>YOUR_WEBHOOK_URL</code> in the script with your Google Apps Script (or webhook) URL to auto-save bookings to Google Sheets/Excel.</p>
+    </div>
+  </section>
+
+  <!-- Academy -->
+  <section id="academy" class="py-8">
+    <div class="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
+      <div>
+        <h3 class="text-2xl font-semibold text-maroon">SS Academy — Learn & Earn</h3>
+        <p class="mt-2 text-gray-600">Join short-term hands-on courses in makeup, hairstyles, and nails. Placement assistance & certification provided.</p>
+        <ul class="mt-4 list-disc list-inside text-gray-700">
+          <li>Practical training with real clients</li>
+          <li>Small batches & personal attention</li>
+          <li>Certificate & placement help</li>
+        </ul>
+        <a href="#book" class="mt-4 inline-block btn-accent px-4 py-2 rounded-md">Join the Academy</a>
+      </div>
+      <div>
+        <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder" alt="academy" class="rounded-lg object-cover h-56 w-full shadow">
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-[var(--brand-maroon)] text-white py-8">
+    <div class="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div>
+        <h4 class="font-bold text-lg">SS Makeover Salon & Academy</h4>
+        <p class="text-sm mt-2">Chhindwara<br>Near Main Market</p>
+      </div>
+      <div>
+        <h5 class="font-semibold">Contact</h5>
+        <p class="text-sm mt-2">Phone: <a href="tel:+91XXXXXXXXXX" class="underline">+91XXXXXXXXXX</a></p>
+        <p class="text-sm mt-1">WhatsApp: <a href="https://wa.me/91XXXXXXXXXX" class="underline">Chat with us</a></p>
+      </div>
+      <div>
+        <h5 class="font-semibold">Opening Hours</h5>
+        <p class="text-sm mt-2">Mon - Sat: 9:00 AM - 8:00 PM<br>Sunday: 10:00 AM - 6:00 PM</p>
+      </div>
+    </div>
+    <div class="text-center text-sm mt-6">&copy; <span id="year"></span> SS Makeover Salon & Academy — All rights reserved.</div>
+  </footer>
+
+  <script>
+    // small helper
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Pre-fill service when service card clicked
+    const serviceCards = document.querySelectorAll('.service-card');
+    serviceCards.forEach(card => {
+      card.addEventListener('click', () => {
+        const svc = card.getAttribute('data-service');
+        document.getElementById('service').value = svc;
+        window.location.hash = '#book';
+      });
+    });
+
+    // Booking form submit handling
+    const bookingForm = document.getElementById('bookingForm');
+    const bookingMsg = document.getElementById('bookingMsg');
+
+    // Replace this with your Google Apps Script / webhook URL
+    const WEBHOOK_URL = 'YOUR_WEBHOOK_URL';
+
+    bookingForm.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      bookingMsg.textContent = 'Saving your booking...';
+
+      const payload = {
+        name: document.getElementById('name').value.trim(),
+        phone: document.getElementById('phone').value.trim(),
+        service: document.getElementById('service').value,
+        date: document.getElementById('date').value,
+        time: document.getElementById('time').value,
+        notes: document.getElementById('notes').value.trim(),
+        city: 'Chhindwara',
+        salon: 'SS Makeover Salon & Academy'
+      };
+
+      // Basic validation
+      if(!payload.name || !payload.phone || !payload.service || !payload.date || !payload.time){
+        bookingMsg.textContent = 'Please fill all required fields.';
+        return;
+      }
+
+      try{
+        if(WEBHOOK_URL === 'YOUR_WEBHOOK_URL'){
+          // Local demo fallback: save to localStorage (demo only)
+          const demo = JSON.parse(localStorage.getItem('ss_bookings') || '[]');
+          demo.push(payload);
+          localStorage.setItem('ss_bookings', JSON.stringify(demo));
+          bookingMsg.textContent = 'Booking saved (demo). Replace WEBHOOK_URL with your Google Apps Script URL to auto-save to Google Sheets.';
+          bookingForm.reset();
+          return;
+        }
+
+        const res = await fetch(WEBHOOK_URL, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(payload)
+        });
+
+        if(res.ok){
+          bookingMsg.textContent = 'Booking confirmed! We will contact you soon.';
+          bookingForm.reset();
+        } else {
+          bookingMsg.textContent = 'Failed to save booking. Try again or contact us.';
+        }
+      } catch(err){
+        console.error(err);
+        bookingMsg.textContent = 'Network error. Try again later.';
+      }
+    });
+
+    // Simple testimonial rotation (basic)
+    (function rotateTestimonials(){
+      const t = document.querySelectorAll('#testimonials > div');
+      let i=0;
+      if(t.length===0) return;
+      setInterval(()=>{
+        t[i].classList.add('hidden');
+        i = (i+1)%t.length;
+        t[i].classList.remove('hidden');
+      }, 5000);
+    })();
+  </script>
+</body>
+</html>
